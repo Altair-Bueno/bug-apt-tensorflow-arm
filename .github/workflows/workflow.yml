@@ -4,7 +4,7 @@ on:
       - "*"
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: bug-apt-tensorflow-arm
+  IMAGE_NAME: Altair-Bueno/bug-apt-tensorflow-arm
 jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
